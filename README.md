@@ -10,7 +10,7 @@ The attachment contains following parts to support and complement the experiment
 Simulation data for 36 scenarios, with 1000 trials per scenario using Bat, Bat-Lite and Juggle, has been uploaded. These data include serve position (random), serve velocity (random), landing position (if the ball was not catched by the quadrotor), quadrotor's hitting position, hitting velocity and hitting attitude (quaternion). 
 
 <p align="center">
-  <img src="./figures/simulation.png" alt="Simulation Scene" width="300"/>
+  <img src="./figures/simulation.png" alt="Simulation Scene" width="500"/>
   <br>
   <em>Fig. 1 Simulation Scene</em>
 </p>
