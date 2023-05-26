@@ -21,7 +21,7 @@ The file naming convention is as follows:
 
 - *p* is short for *''proposed''* (Bat), *l* is short for *''lite''* (Bat-Lite), *b* is short for *''benchmark''* (Juggle).
 
-- The files are named as ''Serve region _ Land region _ Target region _ Method''. For example, ''1_2_3_b.csv'' means the ball is served in N-region of  $C_s$ and will land in F-region of $C_h$ if without hit. The target is set in the center of L-region of *$C_s$*.
+- The files are named as ''Serve region _ Land region _ Target region _ Method''. For example, ''1_2_3_b.csv'' means the ball is served in N-region of  $*C_s*$ and will land in F-region of $*C_h*$ if without hit. The target is set in the center of L-region of $*C_s*$.
 
 
 # Code
