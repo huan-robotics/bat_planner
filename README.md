@@ -9,18 +9,20 @@ The attachment contains following parts to support and complement the experiment
 
 Simulation data for 36 scenarios, with 1000 trials per scenario using Bat, Bat-Lite and Juggle, has been uploaded. These data include serve position (random), serve velocity (random), landing position (if the ball was not catched by the quadrotor), quadrotor's hitting position, hitting velocity and hitting attitude (quaternion). 
 
-<div style="text-align: center;">
-    <img src="./figures/simulation.png" alt="Simulation Scene" width="300">
-    <figcaption>Fig. 1 Simulation Scene</figcaption>
-</div>
+<p align="center">
+  <img src="./figures/simulation.png" alt="Simulation Scene" width="300"/>
+  <br>
+  <em>Fig. 1 Simulation Scene</em>
+</p>
 
 The file naming convention is as follows:
 
-- 1\2\3\4 represent N\F\L\R regions.
+- 1\2\3\4 represent N\F\L\R regions as shown in Fig. 1.
 
 - *p* is short for *''proposed''* (Bat), *l* is short for *''lite''* (Bat-Lite), *b* is short for *''benchmark''* (Juggle).
 
-- The files are named as ''Serve region _ Land region _ Target region _ Method''. For example, ''1_2_3_b.csv'' means the ball is served in N-region of  $\cal {C}_{\textit{s}}$ and will land in F-region of  $\cal {C}_{\textit{h}}$ if without hit. The target is set in the center of L-region of  $\cal {C}_{\textit{s}}$.
+- The files are named as ''Serve region _ Land region _ Target region _ Method''. For example, ''1_2_3_b.csv'' means the ball is served in N-region of  *$C_s$* and will land in F-region of *$C_h$* if without hit. The target is set in the center of L-region of *$C_s$*.
+
 
 # Code
 On the way...
